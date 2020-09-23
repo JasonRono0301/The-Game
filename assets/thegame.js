@@ -19,7 +19,12 @@
             quistion = quistion2 = prompt('Welkom by level 2: Je ziet een minigun op de grond liggen pak jij de minigun op?');//Vraag voor level 2.
                 if(quistion2 == YES){//Level 2.
                     alert('Goed dat je de minigun hebt opgepakt zo kan jij jezelf beschermen.');//Alert omdat het antwoord goed is. En waarom het goed is.
-                    quistion = quistion3 = prompt('Welkom by level 3:');
+                    quistion = quistion3 = prompt('Welkom by level 3: Je core reactor is oververhit om het af te koelen moet je de code invoeren voor de afkoeling proces.');
+                        if(quistion3 ==){
+
+                        } else{//Voor als level 3 fout is en waarom het fout is.
+                            alert('De code is fout dus je reactor is op het punt om op te blazen!')
+                        }
                 } else {//Voor als level 2 fout geantwoord is en waarom het fout is.
                     alert('Je kan helaas niet door naar het volgende level, omdat je de mini gun nodig hebt om jezelf te beschermen.');
                 }
