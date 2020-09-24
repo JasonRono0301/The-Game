@@ -35,8 +35,19 @@
             if(quistion4 == Number(jump)){//If statement voor level 4.
                 alert('Goed dat je jump over de rollende steen je gaat door naar de volgende level.');//Alert omdat het antwoord goed is. En waarom het goed is.
                 alert('Welkom bij level 5:')//Alert voor level 5.
-                alert('Er staan nu 3 gevaarlijke dieren voor je met metalen tanden die door je titan door kunnen bijten.');//Intro voor level 5.
-                    quistion = quistion5 = prompt('Schiet je ze met je mini-gun of sla je ze?');//Vraag voor level 5.
+                alert('Er staan nu 3 gevaarlijke dieren voor je met metalen tanden die door je titan door kunnen bijten. Welke keuze ga je maken?');//Intro voor level 5.
+                    quistion = quistion5 = prompt('Mini-Gun of Vechten?');//Vraag voor level 5.
+                        var minigun = 'mini-gun';
+                        var fight = 'vechten';
+            if(quistion5 == minigun){
+                alert('Je hebt de goede keuze gemaakt om de mini gun te gebruiken zo kun je neerschieten. Je gaat door naar de volgende level.');//Alert omdat het antwoord goed is. En waarom het goed is.
+                alert('Welkom bij level 6.');//Alert voor level 6.
+                alert('Je titan zijn levensbatterij zit op 30% maar je ziet voor je een batterij ');//Intro voor level 6.
+                    quistion = quistion6 = prompt('')
+
+        } else {
+                alert('Vechten gaat helaas niet omdat ze met 3 tal zijn en ze hebben metalen tanden en ze kunnen je makkelijk omsingelen.');
+                    };
         } else{//Voor als level 4 fout is en waarom het fout is.
                 alert('Nummer 2 is fout omdat je recht op de rollende steen afgaat.');
                     };
