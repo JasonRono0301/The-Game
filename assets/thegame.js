@@ -51,14 +51,15 @@
                         var pakken = Number(1);
                         var verder = Number(2);
             if(quistion6 == Number(pakken)){
-                alert('Goede keus om de batterij op te pakken nu is je titan 100%');
-        } else{
-                alert('Je hebt de batterij nodig!')
+                alert('Goede keus om de batterij op te pakken nu is je titan 100%. Je gaat door naar de volgende level');
+                alert('Welkom bij level 7.');
+        } else{//Voor als level 6 fout geantwoord is en waarom het fout is.
+                alert('Je hebt de batterij nodig!');
                     };
-        } else {
+        } else {//Voor als level 5 fout geantwoord is en waarom het fout is.
                 alert('Vechten gaat helaas niet omdat ze met 3 tal zijn en ze hebben metalen tanden en ze kunnen je makkelijk omsingelen.');
                     };
-        } else{//Voor als level 4 fout is en waarom het fout is.
+        } else{//Voor als level 4 fout geantwoord is en waarom het fout is.
                 alert('Nummer 2 is fout omdat je recht op de rollende steen afgaat.');
                     };
         } else {//Voor als level 3 fout is en waarom het fout is.
