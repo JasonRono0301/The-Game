@@ -19,8 +19,6 @@
                 alert('Welkom bij level 2:')//Alert voor level 2.
                     quistion2 = prompt('Je ziet een minigun op de grond liggen pak jij de minigun op?');//Actie in level 2.
             if(quistion2 != NO){//If statement voor level 2.
-                YES.toUpperCase();
-                NO.toUpperCase();
                 alert('Goed dat je de minigun hebt opgepakt zo kan jij jezelf beschermen. Je gaat door naar het volgende level');//Alert omdat het antwoord goed is. En waarom het goed is.
                 alert('Welkom bij level 3:');//Alert voor level 3.
                 alert('Hier moet je een rekensom want je reactor staat op het punt om op te blazen!');//Intro in level 3.
